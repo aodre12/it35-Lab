@@ -39,10 +39,10 @@ const App: React.FC = () => (
   <IonApp>
     <IonReactRouter>
       <IonRouterOutlet>
-        <Route exact path="/home">
+        <Route exact path="/it35/home">
           <Home />
         </Route>
-        <Route exact path="/">
+        <Route exact path="it35-lab/">
           <Redirect to="/home" />
         </Route>
       </IonRouterOutlet>
